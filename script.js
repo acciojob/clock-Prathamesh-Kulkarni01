@@ -1,6 +1,7 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded", () => {
     let p = document.createElement('p');
+	p.setAttribute('id','timer')
     setInterval(() => {
 		const options = {
         year: "numeric",
